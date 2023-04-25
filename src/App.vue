@@ -1,18 +1,23 @@
-<script></script>
+<script>
+import Header from "./components/App_header.vue";
+import Footer from "./components/App_footer.vue";
+
+export default {
+  components: {
+    Header,
+    Footer,
+  },
+};
+</script>
 
 <template>
-  <header class="top-0">
-    <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/skills">Skill</router-link>
-      <router-link to="/projects">Projects</router-link>
-      <router-link to="/contact">Contact</router-link>
-    </nav>
-  </header>
-  <main>
+  <Header />
+
+  <main class="text-center content-center justify-center">
     <router-view />
   </main>
+
+  <Footer />
 </template>
 
 <style scoped></style>
