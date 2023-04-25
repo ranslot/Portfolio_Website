@@ -13,11 +13,15 @@ export default {
 <template>
   <Header />
 
-  <main class="text-center content-center justify-center">
+  <main>
     <router-view />
   </main>
 
   <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+#app {
+  height: 100vh;
+}
+</style>
