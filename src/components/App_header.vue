@@ -2,7 +2,7 @@
   <div>
     <header class="bg-white border-gray-200 dark:bg-gray-200">
       <nav class="flex flex-wrap justify-between px-10 py-3">
-        <a href="https://flowbite.com" class="flex items-start">
+        <router-link to="/" class="flex items-start">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
             class="mr-3 h-6 sm:h-9"
@@ -11,7 +11,7 @@
           <span class="self-center text-xl font-semibold whitespace-nowrap"
             >Supagrit's Portfolio</span
           >
-        </a>
+        </router-link>
         <ul
           class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 flow"
         >
