@@ -3,11 +3,7 @@
     <header class="bg-white border-gray-200 dark:bg-gray-200">
       <nav class="flex flex-wrap justify-between px-10 py-3">
         <router-link to="/" class="flex items-start">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            class="mr-3 h-6 sm:h-9"
-            alt="Flowbite Logo"
-          />
+          <img src="../assets/Logo-icon.png" class="mr-3 h-6 sm:h-9" />
           <span class="self-center text-xl font-semibold whitespace-nowrap"
             >Supagrit's Portfolio</span
           >
