@@ -13,7 +13,7 @@ export default {
 <template>
   <Header />
 
-  <main class="min-h-screen">
+  <main class="min-h-screen max-w-screen-xl mx-auto bg-cyan-100">
     <router-view />
   </main>
 

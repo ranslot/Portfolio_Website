@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-xl mx-auto bg-cyan-100 min-h-full">
+  <div class="min-h-full">
     <h1 class="text-center text-2xl font-bold py-7">Experiences and Skills</h1>
     <section class="flex flex-col content-center justify-evenly">
       <article class="text-center">
@@ -12,8 +12,8 @@
         </p>
         <a href="">Website</a>
       </article>
-      <article>
-        <h2 class="text-center text-xl font-bold py-5 flow-root">Skills</h2>
+      <article class="text-center">
+        <h2 class="text-xl font-bold py-5 flow-root">Skills</h2>
         <div class="flex flex-wrap justify-evenly flex-col lg:flex-row">
           <div class="">
             <h3 class="text-center text-lg font-bold">Front end</h3>

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-xl mx-auto bg-cyan-100 min-h-full">
+  <div class="min-h-full">
     <h1 class="text-center text-2xl font-bold py-7 mb-5">About Me</h1>
     <section class="flex">
       <img src="../assets/Logo-icon.png" alt="" class="p-3" />

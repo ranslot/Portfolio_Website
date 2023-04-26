@@ -35,7 +35,7 @@
           id="mainNavBar"
         >
           <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-200 md:flex-row md:space-x-8 md:mt-0 md:border-0"
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-100 md:bg-gray-200 md:flex-row md:space-x-8 md:mt-0 md:border-0"
           >
             <li>
               <router-link
@@ -55,7 +55,7 @@
               <router-link
                 to="/skills"
                 class="block py-2 pr-4 pl-3 text-black rounded"
-                ><span>Skill</span></router-link
+                ><span>Experiences</span></router-link
               >
             </li>
             <li>
