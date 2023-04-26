@@ -13,7 +13,7 @@ export default {
 <template>
   <Header />
 
-  <main>
+  <main class="min-h-screen">
     <router-view />
   </main>
 
