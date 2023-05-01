@@ -1,7 +1,8 @@
 <template>
   <Header />
-
-  <main class="min-h-screen max-w-screen-xl mx-auto bg-cyan-100">
+  <main
+    class="relative min-h-screen max-w-screen-xl mx-auto bg-white bg-opacity-80 shadow-2xl"
+  >
     <router-view />
   </main>
 
@@ -20,8 +21,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 #app {
-  height: 100vh;
+  min-height: 100vh;
+}
+body {
+  background-image: url("../BGimg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: aquamarine;
+  background-repeat: no-repeat;
 }
 </style>

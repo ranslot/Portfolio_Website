@@ -82,3 +82,9 @@
     </section>
   </div>
 </template>
+
+<style>
+.hero {
+  background-color: transparent;
+}
+</style>

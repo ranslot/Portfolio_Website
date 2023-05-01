@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="border-gray-200 bg-gray-200">
+    <header class="bg-teal-200 shadow-xl rounded">
       <nav
         class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -10,7 +10,7 @@
         <button
           @click="toggle"
           type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-teal-200"
           aria-controls="mainNavBar"
           aria-expanded="false"
         >
@@ -35,7 +35,7 @@
           id="mainNavBar"
         >
           <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-100 md:bg-gray-200 md:flex-row md:space-x-8 md:mt-0 md:border-0"
+            class="font-medium flex flex-col p-0 mt-4 border border-gray-100 rounded-lg bg-teal-100 text-center md:flex-row md:space-x-8 md:mt-0 md:border-0"
           >
             <li>
               <router-link
